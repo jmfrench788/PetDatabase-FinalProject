@@ -1,0 +1,64 @@
+﻿@model PetServices_MVC.Models.AdoptablePetsModels.AdoptablePetDetail
+
+@{
+
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+<hr />
+
+<dl class="row">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Name)
+    </dt>
+    <dd class="col-sm-9">
+        @Html.DisplayFor(model => model.Name)
+    </dd>
+</dl>
+
+<form asp-action="Edit">
+    <div class="row">
+        <div class="col-md-4">
+
+            <div class="col-md-4">
+                <div class="form-group">
+
+                    @Html.DisplayNameFor(r => r.Name)
+
+                    @Html.EditorFor(r => r.Name)
+                </div>
+
+
+                <div class="form-group">
+                    @Html.DisplayNameFor(r => r.Age)
+
+                    @Html.EditorFor(r => r.Age)
+                </div>
+
+
+                <div class="form-group">
+                    @Html.DisplayNameFor(r => r.Weight)
+
+                    @Html.EditorFor(r => r.Weight)
+                </div>
+
+
+                <div class="form-group">
+
+                    @Html.DisplayNameFor(r => r.AdoptionStatus)
+
+                    @Html.EditorFor(r => r.AdoptionStatus)
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <input type="submit" value="Save" class="btn btn-primary" />
+        </div>
+</form>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

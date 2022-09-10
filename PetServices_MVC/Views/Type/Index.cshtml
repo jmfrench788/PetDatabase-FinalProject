@@ -1,0 +1,33 @@
+﻿@model IEnumerable<PetServices_MVC.Models.PetTypesModels.PetTypeIndex>
+
+@{
+    ViewData["Title"] = "Pet Types";
+}
+
+<h1> Pet Types</h1>
+<p>
+    @Html.ActionLink("Add New Type", "Create")
+</p>
+
+<table class="table">
+    <thead>
+
+    <th> @Html.DisplayNameFor(model => model.Id)</th>
+    <th> @Html.DisplayNameFor(model => model.Name)</th>
+    <th> @Html.DisplayNameFor(model => model.Description)</th>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td> @Html.DisplayFor(modelItem => item.Id)</td>
+                <td> @Html.DisplayFor(modelItem => item.Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                <td> @Html.ActionLink("Edit", "Edit", "Type", new {id = item.Id})</td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+
+

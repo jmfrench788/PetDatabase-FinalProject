@@ -1,0 +1,14 @@
+C:\144_Immersions\PetServices_MVC\PetServices_MVC.Data\bin\Debug\net6.0\PetServices_MVC.Data.deps.json
+C:\144_Immersions\PetServices_MVC\PetServices_MVC.Data\bin\Debug\net6.0\PetServices_MVC.Data.runtimeconfig.json
+C:\144_Immersions\PetServices_MVC\PetServices_MVC.Data\bin\Debug\net6.0\PetServices_MVC.Data.dll
+C:\144_Immersions\PetServices_MVC\PetServices_MVC.Data\bin\Debug\net6.0\PetServices_MVC.Data.pdb
+C:\144_Immersions\PetServices_MVC\PetServices_MVC.Data\obj\Debug\net6.0\PetServices_MVC.Data.csproj.AssemblyReference.cache
+C:\144_Immersions\PetServices_MVC\PetServices_MVC.Data\obj\Debug\net6.0\PetServices_MVC.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\144_Immersions\PetServices_MVC\PetServices_MVC.Data\obj\Debug\net6.0\PetServices_MVC.Data.AssemblyInfoInputs.cache
+C:\144_Immersions\PetServices_MVC\PetServices_MVC.Data\obj\Debug\net6.0\PetServices_MVC.Data.AssemblyInfo.cs
+C:\144_Immersions\PetServices_MVC\PetServices_MVC.Data\obj\Debug\net6.0\PetServices_MVC.Data.csproj.CoreCompileInputs.cache
+C:\144_Immersions\PetServices_MVC\PetServices_MVC.Data\obj\Debug\net6.0\PetServices_MVC.Data.dll
+C:\144_Immersions\PetServices_MVC\PetServices_MVC.Data\obj\Debug\net6.0\refint\PetServices_MVC.Data.dll
+C:\144_Immersions\PetServices_MVC\PetServices_MVC.Data\obj\Debug\net6.0\PetServices_MVC.Data.pdb
+C:\144_Immersions\PetServices_MVC\PetServices_MVC.Data\obj\Debug\net6.0\PetServices_MVC.Data.genruntimeconfig.cache
+C:\144_Immersions\PetServices_MVC\PetServices_MVC.Data\obj\Debug\net6.0\ref\PetServices_MVC.Data.dll

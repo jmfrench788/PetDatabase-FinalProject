@@ -1,0 +1,40 @@
+﻿@model PetServices_MVC.Models.PetModels.PetCreate
+
+@{
+    ViewData["Title"] = "Add A New Pet";
+}
+
+<h1>Add a New Pet</h1>
+<hr />
+
+@using (Html.BeginForm())
+{
+    <div class = "form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="TypeId" class="control-label"></label>
+        <input asp-for="TypeId" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Age" class="control-label"></label>
+        <input asp-for="Age" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Weight" class="control-label"></label>
+        <input asp-for="Weight" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="ServiceId" class="control-label"></label>
+        <input asp-for="ServiceId" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+  
+  
+}
